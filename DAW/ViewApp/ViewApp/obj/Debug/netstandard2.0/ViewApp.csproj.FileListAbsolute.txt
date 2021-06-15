@@ -1,0 +1,14 @@
+C:\Users\Franz\source\repos\ViewApp\ViewApp\bin\Debug\netstandard2.0\ViewApp.deps.json
+C:\Users\Franz\source\repos\ViewApp\ViewApp\bin\Debug\netstandard2.0\ViewApp.dll
+C:\Users\Franz\source\repos\ViewApp\ViewApp\bin\Debug\netstandard2.0\ref\ViewApp.dll
+C:\Users\Franz\source\repos\ViewApp\ViewApp\bin\Debug\netstandard2.0\ViewApp.pdb
+C:\Users\Franz\source\repos\ViewApp\ViewApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Franz\source\repos\ViewApp\ViewApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Franz\source\repos\ViewApp\ViewApp\obj\Debug\netstandard2.0\ViewApp.AssemblyInfoInputs.cache
+C:\Users\Franz\source\repos\ViewApp\ViewApp\obj\Debug\netstandard2.0\ViewApp.AssemblyInfo.cs
+C:\Users\Franz\source\repos\ViewApp\ViewApp\obj\Debug\netstandard2.0\ViewApp.csproj.CoreCompileInputs.cache
+C:\Users\Franz\source\repos\ViewApp\ViewApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Franz\source\repos\ViewApp\ViewApp\obj\Debug\netstandard2.0\ViewApp.dll
+C:\Users\Franz\source\repos\ViewApp\ViewApp\obj\Debug\netstandard2.0\ref\ViewApp.dll
+C:\Users\Franz\source\repos\ViewApp\ViewApp\obj\Debug\netstandard2.0\ViewApp.pdb
+C:\Users\Franz\source\repos\ViewApp\ViewApp\obj\Debug\netstandard2.0\ViewApp.csproj.AssemblyReference.cache

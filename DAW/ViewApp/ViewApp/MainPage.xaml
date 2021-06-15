@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ViewApp.MainPage">
+
+    <StackLayout>
+        <ActivityIndicator Color= "Red" IsRunning="True" />
+        <Button Text="=Clic"
+                TextColor="Coral"
+                FontSize="Large"
+                FontAttributes="Italic"
+                BorderColor="Blue"
+                BorderWidth="2"
+                BorderRadius="20"
+                Clicked="Button_Clicked"/>
+
+        <DatePicker x:Name="dtp"
+                    Format="ff/MM/yyyy"/>
+
+        <Editor x:Name="editor"
+                HeightRequest="100"
+                Text="Texto Prueba"
+                FontAttributes="Bold"
+                FontSize="Small"
+                TextColor="Green"/>
+
+        <Entry VerticalOptions="Center"
+               HorizontalOptions="FillAndExpand"
+               IsPassword="False"
+               Placeholder="Usuario"
+               PlaceholderColor="Yellow"
+               Text="Franz"
+               TextColor="Coral"
+               FontAttributes="Bold"
+               FontSize="Micro"
+               />
+
+        <Image Source="pepe.jpg"
+               HorizontalOptions="Center"
+               VerticalOptions="Start"
+               WidthRequest="200"
+               HeightRequest="200"/>
+
+        <Label Text="Hola Mundo Xamarin"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"
+               TextColor="Orange"
+               BackgroundColor="LightBlue"
+               WidthRequest="200"
+               HorizontalTextAlignment="Center">
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="Texto Adicional"
+                          FontAttributes="Bold"
+                          FontSize="Large"/>
+
+                    <Span Text="Texto Adicional 2"
+                          FontAttributes="Bold"
+                          FontSize="Large"
+                          TextColor="LightCoral"
+                          />
+                </FormattedString>
+            </Label.FormattedText>
+            
+        </Label>
+        
+
+        <Picker x:Name="picker"
+                Title="Seleccionar un item"
+                TextColor="Blue"
+                SelectedIndexChanged="picker_SelectedIndexChanged">
+            <Picker.Items>
+                <x:String>Halo</x:String>
+                <x:String>Gears of War</x:String>
+                <x:String>Final Fantasy</x:String>
+                <x:String>Mario Bros</x:String>
+            </Picker.Items>
+        </Picker>
+
+        <ProgressBar x:Name="progress"
+                     Progress="0.1"/>
+
+        <Button x:Name="btnSimular"
+                Text="Simular"
+                Clicked="btnSimular_Clicked"/>
+
+        <SearchBar Placeholder="Buscar"
+                   CancelButtonColor="Coral"
+                   Text="Texto"
+                   SearchButtonPressed="SearchBar_SearchButtonPressed"
+                   TextChanged="SearchBar_TextChanged"/>
+        
+    </StackLayout>
+    
+
+</ContentPage>

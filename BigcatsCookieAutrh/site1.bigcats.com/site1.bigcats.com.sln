@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "site1.bigcats.com", "site1.bigcats.com.csproj", "{82822B5C-D687-4A1B-B6A3-0DB4C32C202D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "site2.bigcats.com", "..\site2.bigcats.com\site2.bigcats.com.csproj", "{715C8865-6CAD-465D-A336-3E600D4096FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82822B5C-D687-4A1B-B6A3-0DB4C32C202D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82822B5C-D687-4A1B-B6A3-0DB4C32C202D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82822B5C-D687-4A1B-B6A3-0DB4C32C202D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82822B5C-D687-4A1B-B6A3-0DB4C32C202D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{715C8865-6CAD-465D-A336-3E600D4096FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{715C8865-6CAD-465D-A336-3E600D4096FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{715C8865-6CAD-465D-A336-3E600D4096FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{715C8865-6CAD-465D-A336-3E600D4096FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA31A5E0-74B5-4286-A8A0-D4A5F32CC515}
+	EndGlobalSection
+EndGlobal
